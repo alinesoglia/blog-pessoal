@@ -45,6 +45,11 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -60,7 +65,6 @@
 			<artifactId>h2</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- Dependências para Geração e Validação do Token JWT -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-api</artifactId>
@@ -75,6 +79,11 @@
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
